@@ -8,8 +8,9 @@ const char* password = "Venus-Pandora5519"; //contraseña wifi
 const char* mqtt_server = "68.183.119.177"; // Este es el address en mqtt dash
 //conexion internet wifi y server
 
-//topico
-const char* keyDevice = "st"; //key/topic
+//buscar????
+const char* keyDevice = "st"; //
+
 //variables de esp
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -17,7 +18,6 @@ PubSubClient client(espClient);
 //varuables numericas
 long lastMsg = 0;
 int value = 0;
-char tArr[4];
 
 //variables conexion pin
 MQ135 gasSensor = MQ135 (A0); //gas sensor se necesita la libreria mq135
