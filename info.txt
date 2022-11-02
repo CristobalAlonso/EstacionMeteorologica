@@ -1,1 +1,0 @@
-android application with mqtt for manipulating sensors
